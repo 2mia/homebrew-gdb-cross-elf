@@ -17,7 +17,8 @@ class GdbCrossElf < Formula
   
   def caveats; <<~EOS
     You'll need to add python scripts to gdb directory:
-        ln -s #{pkgshare}/gdb /usr/local/share/gdb
+        ln -s #{pkgshare}/gdb/python /usr/local/share/gdb
+
     EOS
   end
 end
